@@ -1,32 +1,83 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Générateur de clé Cyberpunk 2077 Gratuit</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mon Site Pro</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>Générateur de Clé pour Cyberpunk 2077</h1>
-            <p>Téléchargez votre clé de jeu gratuitement !</p>
-        </header>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <section class="info">
-            <p>Obtenez votre clé de jeu légale et gratuite pour Cyberpunk 2077 !</p>
-            <button id="generateButton">Obtenez ma clé gratuite !</button>
-        </section>
-
-        <footer>
-            <p>Ce site est un générateur de clés pour un usage **éducatif** uniquement.</p>
-        </footer>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Bienvenue sur Mon Site Professionnel</h1>
+      <p>Nous offrons des solutions innovantes pour votre entreprise.</p>
+      <a href="#contact" class="cta-button">Contactez-nous</a>
     </div>
+  </section>
 
-    <script>
-        document.getElementById('generateButton').addEventListener('click', function() {
-            alert("Téléchargement en cours... Cette action peut entraîner un malware si vous l'exécutez !");
-        });
-    </script>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2>À propos de nous</h2>
+      <p>Nous sommes une équipe dédiée à fournir des services de qualité pour aider votre entreprise à se développer. Nos experts travaillent sans relâche pour offrir les meilleures solutions.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Nos Services</h2>
+      <div class="service-cards">
+        <div class="service-card">
+          <h3>Service 1</h3>
+          <p>Solution complète pour la gestion de vos projets.</p>
+        </div>
+        <div class="service-card">
+          <h3>Service 2</h3>
+          <p>Consultation stratégique pour votre entreprise.</p>
+        </div>
+        <div class="service-card">
+          <h3>Service 3</h3>
+          <p>Formation et développement des compétences professionnelles.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Contactez-nous</h2>
+      <form>
+        <input type="text" placeholder="Votre nom" required>
+        <input type="email" placeholder="Votre email" required>
+        <textarea placeholder="Votre message" required></textarea>
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Mon Site Pro. Tous droits réservés.</p>
+  </footer>
+
 </body>
 </html>
